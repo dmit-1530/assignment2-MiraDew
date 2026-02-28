@@ -24,9 +24,10 @@ header li {
     display: flex;
     list-style: none;
     background-color: var(--white);
-    margin-bottom: 2.75rem;
-    align-items: center;
-    justify-content: space-around;
+    border: 1px solid none;
+    vertical-align: middle;
+    display: inline-block;
+    justify-content: space-between;
     
 }
 
@@ -50,6 +51,12 @@ header li {
     font-size: 1.375rem;
 }
 
+.container-in {
+    background-color: var(--white);
+    margin-top: 3.375rem;
+    
+}
+
 /* Banner */
 
 .banner {
@@ -57,7 +64,6 @@ header li {
     background-color: var(--Secondary-Blue);
     color: var(--Off-White);
     width: 100%;
-    padding-top: 0;
     display: flex;
     
 }
@@ -68,7 +74,7 @@ header li {
     padding-top: 5.0625rem;
     padding-left: 6.3125rem;
     padding-right: 2.125rem;
-    gap: 2.125rem;
+   
 }
 
 .banner p {
@@ -88,15 +94,24 @@ header li {
     padding-bottom: .75rem;
     padding-right: 1rem;
     padding-left: 1rem;
-
+    
    
 }
 
+/* aside */
+
+aside {
+    float: right;
+}
 
 /* Footer */
 
 .footer {
+    background-color: var(--Tertiary-Navy);
+    color: var(--Off-White);
+    margin-top: 113.25rem;
 
+    
 }
 
 .left-foot {
